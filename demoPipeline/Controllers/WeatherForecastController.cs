@@ -15,6 +15,7 @@ namespace demoPipeline.Controllers
 
 		public WeatherForecastController(ILogger<WeatherForecastController> logger)
 		{
+			//doing some changes to check pipeline is working fine
 			_logger = logger;
 		}
 
